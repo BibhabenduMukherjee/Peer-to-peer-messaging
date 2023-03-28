@@ -1,0 +1,18 @@
+Design peer to peer messaging app node- > node
+
+
+
+
+
+
+sender  ---- reciever
+
+
+1 . time of sender node in start to spin up
+2 . register this node to the cluster of server
+    
+     --- get the ip of any server in the cluster
+     --- push sender address and name 
+     --- server has a centralised storage of records 
+     --- all the senders , recievers
+
