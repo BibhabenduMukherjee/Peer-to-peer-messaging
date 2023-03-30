@@ -4,11 +4,11 @@ export function registerWithSeedServer(url : string){
 return fetch(`${url}/register`,{
     method : 'POST',
     body : JSON.stringify({
-        uri : "http://localhost:3000",
-        user : 'sally'
+        uri : `http://localhost:${3000}`,
+        user : process.env.USER
     }),
     headers : {
-        'content-type' : 'application/json'
+        "Content-Type" : "application/json"
     }
 }).then((res) =>{res.json()})
 }

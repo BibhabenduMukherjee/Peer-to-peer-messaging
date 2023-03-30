@@ -13,6 +13,11 @@ sender  ---- reciever
     
      --- get the ip of any server in the cluster
      --- push sender address and name 
-     --- server has a centralised storage of records 
+     --- server can keep a track of records 
      --- all the senders , recievers
+3. Let's assume that a seed server has some 
+   user information 
 
+4. Need to create the logic so that any user
+   lookup the destination ip is present on the 
+   nearest seed server storage
